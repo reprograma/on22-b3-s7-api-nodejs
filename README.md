@@ -106,12 +106,14 @@ Por ser um protocolo, O HTTP estabelece algumas regras e padrões que falaremos 
 ### **2. Request/Response**
 
 Analisando as duas primeiras letras da sigla, o H T de Hypertext, nós temos uma ideia como as coisas acontecem na pratica, "por debaixo do panos" como costumamos dizer. A comunicação HTTP se dá por meio de requisições e respostas que são trasmitidas via texto estruturado em um formato padronizado:
+![HTTP_RequestMessageExample](https://user-images.githubusercontent.com/27566113/235250577-4b90abeb-942f-4205-a16f-52745049a3b5.png)
 
-{imagem aqui}
+
 
 Nesse texto temos um exemplo de requisição. Na primeira linha temos método HTTP, path/rota do recurso que estamos solicitando e a versão do protocolo que estamos usando, nas linhas seguintes temos os headers, um por linha, e após a sequência de headers, pulando uma linha, temos o body da requisição.
 
-{imagem aqui}
+![HTTP_ResponseMessageExample](https://user-images.githubusercontent.com/27566113/235250612-c3f9a1cb-d8d7-4830-b18d-4fb859de18cd.png)
+
 
 Agora temos uma resposta. Na primeira linha da resposta nós temos a versão do protocolo e o status code da requisição, novamente nas linhas seguintes temos os headers, um por linha, e após a sequência de headers, pulando uma linha, temos o body da resposta, que é o conteúdo que foi solicitado.
 
@@ -124,6 +126,7 @@ Tudo isso parece bem complexo e até mesmo arcaíco, mas é como as coisas funci
 
 A URL é o endereço de um recurso na internet, usamos ela o tempo todo enquanto navegamos na internet, e ela é composta das seguintes partes:
 
+![mdn-url-all](https://user-images.githubusercontent.com/27566113/235250525-6465abd8-6403-4836-a317-e7c40525c700.png)
 
 Então lá atrás quando falamos do path/rota, estamos falando desse trecho da url, é importante o entendimento do conceito, pois ele é muito mais relevante, enquanto estamos construindo APIs, do que a URL inteira.
 
