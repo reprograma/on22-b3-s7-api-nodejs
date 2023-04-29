@@ -30,10 +30,6 @@ O que veremos na aula de hoje?
 
 </br>
 
----
-
-</br>
-
 ## **Conteúdo**
 ### API 
 1. [Nossas aplicações precisam se comunicar com o mundo...](#1-nossas-aplicações-precisam-se-comunicar-com-o-mundo)
@@ -47,14 +43,12 @@ O que veremos na aula de hoje?
     * [Headers](#headers)
     * [Status Code](#status-code)
     * [Body](#body)
+### RECAPITULANDO
+1. O que é preciso saber para usar uma API?
 
 ### NODE.js
 1. O que é o NODE.js
 2. 
-
-</br>
-
----
 
 </br>
 
@@ -82,7 +76,7 @@ No nosso exemplo, a Mastercard possui uma API com a funcionalidade de registrar 
 
 Mas o que é preciso saber e conhecer para se comunicar via API? É o que saberemos no fim da explicação de outro conceito chave: o HTTP
 
-</br></br></br>
+</br>
 
 ## **HTTP**
 
@@ -259,6 +253,11 @@ O JSON tambem pode ser uma lista de objetos, onde cada objeto é separados um do
   }
 ]
 ```
+
+### **Recapitulando**
+
+API são funcionalidades implementadas em uma aplicação, que são disponibilizadas para que outras aplicações possa usá-las por meio do protocolo HTTP, fazendo envio de requests e obtendo retorno nas responses.
+O que é preciso saber para
 
 
 
