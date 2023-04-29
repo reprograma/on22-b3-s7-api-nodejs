@@ -8,6 +8,11 @@
 
 Turma Online 22 - B3 | Back-end | Semana 6 | 2023 | Professora Milena Gomes
 
+### Apresentação
+
+![Screenshot from 2023-04-28 18-13-47](https://user-images.githubusercontent.com/27566113/235255404-c121b6bb-642e-4e17-9d16-077dda7d4263.png)
+
+
 ### Instruções
 Antes de começar, vamos organizar nosso setup.
 * Fork esse repositório 
