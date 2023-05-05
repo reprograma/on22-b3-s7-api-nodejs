@@ -18,9 +18,9 @@ Antes de começar, vamos organizar nosso setup.
 
 ## **Conteúdo**
 
-### Callbacks
-1. [O que é programação assíncrona?](#1-o-que-é-programação-assíncrona)
-2. [Explicando os callbacks](#2-explicando-os-callbacks)
+### [Programação Assíncrona](#programação-assíncrona)
+
+### [Callbacks](#callbacks)
 
 ### Event Loop 
 1. [O que é o Event Loop?](#1-o-que-é-o-event-loop)
@@ -33,20 +33,18 @@ Antes de começar, vamos organizar nosso setup.
 1. [Apresentando o NodeJS](#1-apresentando-o-nodejs)
 
 
-## **Callbacks**
-
-### **1. O que é programação assíncrona?**
+## **Programação Assíncrona**
 
 Nós entendemos o algoritmo como uma sequência de operações, que podem ser chamada de funções, execução de operações aritméticas, e execução de operações lógicas. 
 
-Estamos acostumadas com o entendimento de forma síncrona dos algoritmos que produzimos, ou seja, um operação deve ser concluída para que a próxima operação seja iniciada e assim por diante. Isso é programação de fluxo síncrona.
+Estamos acostumadas com o entendimento de forma síncrona dos algoritmos que produzimos, ou seja, um operação deve ser concluída para que a próxima operação seja iniciada e assim por diante, de maneira sequencia. Isso é programação de fluxo síncrono.
 
-Porém, é comum que tenhamos algumas operações mais demoradas, como por exemplo, uma operação que dependenda de interação com o usuário e espere algum input de dados, e pensando que o Javascript é um linguagem criada para navegadores, isso é uma questão séria. Pensa em uma opração que o JS execute que seja muito demorada e que enquanto isso trave a tela do usuário pois não é possível seguir no algoritmo, isso parece bem ruim, certo? Então, nós resolvemos essa questão fazendo o uso da programação assíncrona.
+Porém, é comum que tenhamos algumas operações mais demoradas, como por exemplo, uma operação que dependenda de interação com o usuário e espere algum input de dados, e pensando que o Javascript é um linguagem criada para navegadores, isso é uma questão séria. Pensa em uma operação que o JS execute que seja muito demorada e que enquanto isso trave a tela do usuário pois não é possível seguir no algoritmo, isso parece bem ruim, certo? Então, nós resolvemos essa questão fazendo o uso da programação assíncrona.
 
-Programação assíncrona nada mais é do que a construção de um algoritmo, cujo fluxo de execução, não depende que a execução de um operação seja executada para que a próxima seja realizada.
+Programação assíncrona nada mais é do que a construção de um algoritmo, cujo fluxo de execução, não dependa que a execução de um operação seja executada para que a próxima seja realizada.
 
 
-### **2. Explicando os callbacks**
+## **Callbacks**
 
 Claramente, em qualquer tipo de fluxo de execução, precisamos muitas vezes do resultado da operação para realizarmos outras operações, então como funciona a programação assícrona nesse caso?
 
@@ -54,7 +52,7 @@ Para conseguirmos resolver a questão de dependencia entre operações e ainda u
 
 Callbacks são funcões que são passadas por parametros para outras funções, para serem executadas posteriormente. São muito utilizadas em fluxo síncronos, mas são mais importantes ainda em fluxo assícronos. 
 
-Um exemplo síncrono que nós temos é o forEach() que já usamos aqui no curso.
+Um exemplo síncrono que que nós temos é o forEach() que já usamos aqui no curso.
 
 ```
 livros.forEach() // o forEach é uma função
@@ -64,9 +62,14 @@ livros.forEach() // o forEach é uma função
 
 Então, como o callback resolve fluxos assíncronos? Simples, sempre que temos um conjunto de operações, B e C, que dependem do resultado ou da execução da operação A, nós agrupamos B e C numa função e passamos para a operação A, para que ela o execute quando terminar.
 
-Um clássico exemplo é o setTimeout
-```
+Um clássico exemplo é o setTimeout, que passamos por parametro uma função callback e um numero inteiro. O que o setTimeout faz é executar a função de callback, depois de um certo tempo em milissegundos, que é indicado pelo número inteiro passado por parametro.
 
+```
+function meuCallback() {
+  console.log("Executando o callback")
+}
+
+setTimeout(meuCallback, 5000)
 ```
 
 </br></br>
