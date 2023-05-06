@@ -6,7 +6,7 @@
 
 </br>
 
-Turma Online 22 - B3 | Back-end | Semana 6 | 2023 | [Professora Milena Gomes](https://www.linkedin.com/in/milena-gr/) 
+Turma Online 22 - B3 | Back-end | Semana 7 | 2023 | [Professora Milena Gomes](https://www.linkedin.com/in/milena-gr/) 
 
 
 ### Instruções
@@ -28,8 +28,11 @@ Antes de começar, vamos organizar nosso setup.
 
 ### [Callback vs. Promises](#callback-vs-promises)
 
-### EventLoop 
-1. [O que é o Event Loop?](#1-o-que-é-o-event-loop)
+### [EventLoop](#event-loop)
+   - [Call stack](#call-stack)
+   - [Thread poll](#thread-pool)
+   - [Event Queue](#event-queue)
+   - [Quem gerencia todo esse rolê?](#quem-gerencia-todo-esse-rolê)
 
 
 ## **Programação Assíncrona**
@@ -74,7 +77,7 @@ setTimeout(meuCallback, 5000)
 
 ## **Promises**
 
-Para lidar com operações assíncronas, o Javascript nos fornece outro recurso, que são as `Promises`. `Promise` é um padrão de desenvolvimento que permite que lidemos com operações assícronas definindo ações que devem ser executadas em caso de sucesso, ou em caso de erro, na conclusão dessas operações. 
+Para lidar com operações assíncronas, o Javascript nos fornece outro recurso, que são as `Promises`. `Promise` é um padrão de desenvolvimento que permite que lidemos com operações assí,cronas definindo ações que devem ser executadas em caso de sucesso, ou em caso de erro, na conclusão dessas operações. 
 
 Vamos criar uma Promise
 
@@ -201,11 +204,37 @@ Notem que eu desamarrei a dependencia entre as funções, eu poderia inclusive a
 
 ## **Event Loop**
 
-Como eu disse anteriormente, o Javascript é `single-thread`, ou seja ele tem um único fluxo de execução de operações, e se ele tem um único fluxo de operações, como é possível que meu código siga fazendo outras coisas enquanto funções assícronas rodam?
+Como eu disse anteriormente, o Javascript é `single-thread`, ou seja ele tem um único fluxo de execução de operações, e se ele tem um único fluxo de operações, como é possível que meu código siga fazendo outras coisas enquanto funções assíncronas rodam?
 
-Isso acontece graças à um componente do Javascript chamado Eventloop.
+Isso acontece graças à um componente do Javascript chamado Eventloop. Mas, antes de entendermos o que é o EventLoop vamos conhecer como algumas coisas funcionam no Javascript quando o nosso código é executado.
 
-Antes de entendermos o que é o EventLoop 
+### **Call stack**
+Call stack é a `pilha` de execução das operações em Javascript. Cada função chamada gera um item no topo da `pilha`, e como a `pilha` funciona sempre do topo pra baixo, um função chamada deve ser executada, removida da `pilha`, para que a função de baixo siga na execução. 
+
+![call stack](./assets/1_rJ2sh-q1deQGGGVG5gYyIQ.png)
+
+### **Thread pool**
+Quando dizemos que o Node é single-thread, isso quer dizer que para o nosso controle, enquanto programadoras, só temos um fluxo de operação, porém para o Node por "debaixo dos panos", ele faz o uso de um conjunto de threads, um thread pool, para processar funções assíncronas de forma independente. Quando chamamos uma função assíncrona, nós passamos essa função para esse thread poll e tiramos ela da call stack para que o fluxo de operações continue.
+
+### **Event Queue**
+Quando uma função assíncrona é processada no ThreadPoll ela manda o callback a ser executano na conclusão para a EventQueue, que é uma `fila`, ou seja os callbacks que chegarem primeiro, serão executados primeiro. 
+
+### **Quem gerencia todo esse rolê?**
+
+O Event Loop.
+
+O Event loop nada mais é do que o componente que gerencia a `call stack`, o `thread poll` e o `event queue`.
+
+Como o EventLoop funciona:
+1. Quando todos os itens da call stack forem executados, o `event loop` checa a `event queue`, verificando se tem callbacks pendentes e os envia para a `call stack`
+2. Quando todos os itens da `event queue` forem executados, ele checa se na `thread pool` tem alguma função assíncrona já concluída, e envia para a `event queue` os callbacks delas
+3. Terminando ele volta para a `call stack` para o próximo loop seguindo os mesmos passos
+
+![event loop](./assets/1_4SoPLMu-BDKU83RTOsSm1w.png)
+
+
+
+
 
 
 
@@ -231,13 +260,6 @@ Antes de entendermos o que é o EventLoop
 
 
 ### Links Úteis
-- [Saiba o que é JSON e como utilizar](https://www.alura.com.br/artigos/o-que-e-json)
-- [O que é HTTP?](https://tecnoblog.net/responde/o-que-e-http/)
-- [O que é o NPM?](https://www.hostinger.com.br/tutoriais/o-que-e-npm)
-- [Node.js Modules](https://www.w3schools.com/nodejs/nodejs_modules.asp)
-- [O que é NodeJS](https://tecnoblog.net/responde/o-que-e-node-js-guia-para-iniciantes/)
-- [Documentação HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview)
-- [Documentação NodeJS](https://nodejs.org/pt-br/docs)
 
 
 <p align="center">
