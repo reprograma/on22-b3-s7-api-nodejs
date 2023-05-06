@@ -20,22 +20,22 @@ Nós vamos voltar com a nossa Biblioteca, mas agora com novas informações.
     Email: lukeskywalker@email.com
 ```
 
-
-
-
-#### **Em um arquivo resolva usando callbacks:**
-
- - Criar uma callback simulando uma resposta do Livro.
-
- - Criar uma callback simulando uma resposta dos Usuários do livro
-
- - Resolver as callback e imprimir o resultado no terminal
-
-
 #### **Em outro arquivo resolva usando promises:**
- - Converter os callbacks em Promises
 
-#### **Em outro arquivo resolva usando promises com async/await:**
+##### Primeira Parte
+ - Criar um novo arquivo
+
+ - Atualizar o package.json com esse novo arquivo.
+
+ - No novo arquivo criar uma promise simulando uma busca do Livro, SOMENTE DO LIVRO, SEM OS USUARIOS.
+
+ - Imprimir o resultado no terminal
+
+---
+##### Segunda Parte
+  - Criar uma promisse simulando uma resposta dos Usuários do livro
+
+#### **BONUS: Em outro arquivo resolva usando promises com async/await:**
 
  - Usar o async/await para consumir as promises.
 
