@@ -35,7 +35,7 @@ Nós vamos voltar com a nossa Biblioteca, mas agora com novas informações.
 #### **Em outro arquivo resolva usando promises:**
  - Converter os callbacks em Promises
 
- - Usar o async/awit para consumir as promises com sucesso.
+#### **Em outro arquivo resolva usando promises com async/await:**
 
- - Usar o async/awit para consumir as promises com erro.
+ - Usar o async/await para consumir as promises.
 
