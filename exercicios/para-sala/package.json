@@ -1,0 +1,15 @@
+{
+  "name": "para-sala",
+  "version": "1.0.0",
+  "description": "## Biblioteca",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^8.0.9"
+  }
+}

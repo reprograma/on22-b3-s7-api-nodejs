@@ -77,7 +77,7 @@ setTimeout(meuCallback, 5000)
 
 ## **Promises**
 
-Para lidar com operações assíncronas, o Javascript nos fornece outro recurso, que são as `Promises`. `Promise` é um padrão de desenvolvimento que permite que lidemos com operações assí,cronas definindo ações que devem ser executadas em caso de sucesso, ou em caso de erro, na conclusão dessas operações. 
+Para lidar com operações assíncronas, o Javascript nos fornece outro recurso, que são as `Promises`. `Promise` é um padrão de desenvolvimento que permite que lidemos com operações assíncronas definindo ações que devem ser executadas em caso de sucesso, ou em caso de erro, na conclusão dessas operações. 
 
 Vamos criar uma Promise
 
@@ -195,9 +195,9 @@ function funcaoD(valor) {
 }
 
 funcaoA(1)
-  .then((resultadoA) => funcaoB(resultado))
-  .then((resultadoB) => funcaoC(resultado))
-  .then((resultadoC) => funcaoD(resultado))
+  .then((resultadoA) => funcaoB(resultadoA))
+  .then((resultadoB) => funcaoC(resultadoB))
+  .then((resultadoC) => funcaoD(resultadoC))
 ```
 
 Notem que eu desamarrei a dependencia entre as funções, eu poderia inclusive alterar a ordem das chamadas se eu quisesse, isso demonstra que com Promisses eu tenho controle da cadeia de execução de funções, além de eventualmente poder usar o async/await, coisa que eu não conseguiria usando callbacks puramente.
