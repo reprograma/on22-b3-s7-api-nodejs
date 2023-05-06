@@ -195,9 +195,9 @@ function funcaoD(valor) {
 }
 
 funcaoA(1)
-  .then((resultadoA) => funcaoB(resultado))
-  .then((resultadoB) => funcaoC(resultado))
-  .then((resultadoC) => funcaoD(resultado))
+  .then((resultadoA) => funcaoB(resultadoA))
+  .then((resultadoB) => funcaoC(resultadoB))
+  .then((resultadoC) => funcaoD(resultadoC))
 ```
 
 Notem que eu desamarrei a dependencia entre as funções, eu poderia inclusive alterar a ordem das chamadas se eu quisesse, isso demonstra que com Promisses eu tenho controle da cadeia de execução de funções, além de eventualmente poder usar o async/await, coisa que eu não conseguiria usando callbacks puramente.
