@@ -8,5 +8,8 @@
     "start": "node index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^8.0.9"
+  }
 }
