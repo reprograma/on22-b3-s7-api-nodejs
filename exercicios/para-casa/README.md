@@ -35,6 +35,10 @@ Vamos fazer a continuação do exercício feito em sala.
     Email: lukeskywalker@email.com
 ```
 
+[Exemplo sem as promisses mas com o mesmo resultado no terminal](../para-sala/index.js)
+
+---
+
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
 
 - [ ] Fiz o fork do repositório.
