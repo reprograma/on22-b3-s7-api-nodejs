@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
+        "author": "Douglas Hofstadter",
+        "editor": "Basic Books",
+        "price": 24.99,
+        "tags": ["mathematics",
+            "logic",
+            "music",
+            "art",
+            "philosophy"
+        ],
+        "users": ""
+    },
+    {
+        "id": 2,
+        "title": "Science of Logic",
+        "author": "Georg Wilhelm Friedrich Hegel",
+        "editor": "Cambridge University Press",
+        "price": 30.99,
+        "tags": [
+            "philosophy",
+            "logic",
+            "dialectics",
+            "metaphysics"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "The Process",
+        "author": "Franz Kafka",
+        "editor": "Schocken Books",
+        "price": 12.99,
+        "tags": [
+            "fiction",
+            "existentialism",
+            "absurdism",
+            "psychological"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Testojunkie: Sex, Drugs, and Biopolitics in the Pharmacopornographic Era",
+        "author": "Paul B. Preciado",
+        "editor": "The Feminist Press",
+        "price": 19.99,
+        "tags": [
+            "gender",
+            "sexuality",
+            "politics",
+            "philosophy",
+            "feminism"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "The C Programming Language",
+        "author": "Brian W. Kernighan",
+        "editor": "Prentice Hall",
+        "price": 48.99,
+        "tags": [
+            "computer science",
+            "programming",
+            "c programming",
+            "software development",
+            "algorithms"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "The Structure of Scientific Revolutions",
+        "author": "Thomas S. Kuhn",
+        "editor": "University of Chicago Press",
+        "price": 17.99,
+        "tags": [
+            "science",
+            "philosophy of science",
+            "paradigm shifts",
+            "history of science"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Capital: Critique of Political Economy",
+        "author": "Karl Marx",
+        "editor": "Penguin Classics",
+        "price": 10.99,
+        "tags": [
+            "political economy",
+            "socialism",
+            "economic theory",
+            "history",
+            "politics"
+        ]
+    }
+]
