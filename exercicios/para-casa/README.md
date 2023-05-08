@@ -12,6 +12,10 @@ Vamos fazer a continuação do exercício feito em sala.
 
  - Atualizar o package.json com esse novo arquivo.
 
+ - Copiar o biblioteca.json para o para-casa.
+
+ - Copiar o usuarios.json para o para-casa.
+
  - Adicionar uma promise simulando a busca dos usuários para o livro buscado.
 
  - Imprimir o resultado no terminal
@@ -30,6 +34,8 @@ Vamos fazer a continuação do exercício feito em sala.
     Nome: Luke Skywalker
     Email: lukeskywalker@email.com
 ```
+
+[Exemplo sem as promisses mas com o mesmo resultado no terminal](../para-sala/index.js)
 
 ---
 
