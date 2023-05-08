@@ -6,7 +6,7 @@ const checkParity = (number) => {
                 const result = number % 2 == 0
                 resolve(result)
             } else {
-                reject("The informed number is not valid.")
+                reject("The informed value is not a valid numeric value!")
             }
         }, 2500)
     })
