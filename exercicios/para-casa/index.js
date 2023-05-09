@@ -1,59 +1,59 @@
-const livros = require("./biblioteca.json")
-const usuarios = require("./usuarios.json")
+const books = require("./library.json")
+const users = require("./users.json")
 
-const buscaLivroPorId = (id) => {
+const findBookByID = (id) => {
     return new Promise((resolve, reject) => {
-        const livroEncontrado = livros.find((livro) => livro.id === id)
+        const foundBook = books.find((book) => book.id === id)
 
-        if (livroEncontrado) {
-            resolve(livroEncontrado)
+        if (foundBook) {
+            resolve(foundBook)
         } else {
-            reject("Livro não encontrado.")
+            reject("Book not found.")
         }
     })
 }
 
-const buscaUsuarioPorId = (id) => {
+const findUserByID = (id) => {
     return new Promise((resolve, reject) => {
-        const usuarioEncontrado = usuarios.find((usuario) => usuario.id === id)
+        const foundUser = users.find((user) => user.id === id)
 
-        if (usuarioEncontrado) {
-            resolve(usuarioEncontrado)
+        if (foundUser) {
+            resolve(foundUser)
         } else {
-            reject("Usuário não encontrado.")
+            reject("User not Found.")
         }
     })
 }
 
-const exibeLivro = (livro) => {
-    console.log(`Título: ${livro.nome}`)
-    console.log(`Autor: ${livro.autor}`)
+const showBook = (book) => {
+    console.log(`Title: ${book.title}`)
+    console.log(`Author: ${book.autor}`)
 }
 
-const exibeUsuario = (usuario) => {
-    console.log(`Nome: ${usuario.nome}`)
-    console.log(`Email: ${usuario.email}`)
+const showUser = (user) => {
+    console.log(`Name: ${user.name}`)
+    console.log(`Email: ${user.email}`)
 }
 
-const livroId = 125
+const bookID = 125
 
-const livroPromise = buscaLivroPorId(livroId)
+const bookPromise = findBookByID(bookID)
 
-livroPromise
-    .then((livro) => {
-        exibeLivro(livro)
+bookPromise
+    .then((book) => {
+        showBook(book)
         console.log("---")
-        console.log("Usuários:\n")
+        console.log("Users:\n")
         return Promise.all(
-            livro.usuarios.map((usuarioId) => buscaUsuarioPorId(usuarioId))
+            book.users.map((userID) => findUserByID(userID))
         )
     })
-    .then((usuarios) => {
-        usuarios.forEach((usuario) => {
-            exibeUsuario(usuario)
+    .then((users) => {
+        users.forEach((user) => {
+            showUser(user)
             console.log("\n")
         })
     })
     .catch((error) => {
-        console.log("Erro:", error)
+        console.log("Error:", error)
     })
