@@ -35,8 +35,8 @@ console.log(`Solicitada a busca para o livro id #${idLivroBuscado}\n`);
 async function exibiUsuarios(livroBuscado) {
   await new Promise(() => {
     setTimeout(() => {
-      livroBuscado.usuarios.forEach((item) => {
-        const busca = usuarios.find((usuario) => usuario.id === item);
+      livroBuscado.usuarios.forEach((itens) => {
+        const busca = usuarios.find((usuario) => usuario.id === itens);
         console.log(`Nome: ${busca.nome}`);
         console.log(`Email: ${busca.email}\n`);
       });
