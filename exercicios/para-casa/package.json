@@ -1,0 +1,12 @@
+{
+  "name": "para-casa",
+  "version": "1.0.0",
+  "description": "Prática para casa.",
+  "main": "ex-casa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ex-casa.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
