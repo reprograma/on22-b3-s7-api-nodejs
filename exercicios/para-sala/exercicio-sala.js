@@ -1,5 +1,6 @@
 const livros = require("./biblioteca.json")
 
+// Exemplo de criação de promises
 const buscaLivroPorId = (id) => {
     return new Promise((resolve, reject) => {
 
@@ -31,6 +32,7 @@ console.log("Buscador de livros")
 
 const idLivroBuscado = 1234
 
+// Exemplo de chamada de promises
 buscaLivroPorId(idLivroBuscado)
     .then((livro) => {
         console.log(`Título: ${livro.nome}`)
