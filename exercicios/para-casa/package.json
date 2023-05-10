@@ -1,0 +1,19 @@
+{
+  "name": "para-casa",
+  "version": "1.0.0",
+  "description": "exercício para casa",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nearlyerika/on22-b3-s7-api-nodejs.git"
+  },
+  "author": "nearlyerika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nearlyerika/on22-b3-s7-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/nearlyerika/on22-b3-s7-api-nodejs#readme"
+}

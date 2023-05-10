@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
+        "author": "Douglas Hofstadter",
+        "editor": "Basic Books",
+        "price": 24.99,
+        "tags": ["mathematics", "logic", "music", "art", "philosophy"],
+        "users": [1, 4, 6, 10, 11, 14, 16, 21, 24, 26, 28, 29]
+    },
+    {
+        "id": 2,
+        "title": "Science of Logic",
+        "author": "Georg Wilhelm Friedrich Hegel",
+        "editor": "Cambridge University Press",
+        "price": 30.99,
+        "tags": ["philosophy", "logic", "dialectics", "metaphysics"],
+        "users": [2, 3, 5, 7, 12, 15, 17, 18]
+    },
+    {
+        "id": 3,
+        "title": "The Process",
+        "author": "Franz Kafka",
+        "editor": "Schocken Books",
+        "price": 12.99,
+        "tags": ["fiction", "existentialism", "absurdism", "psychological"],
+        "users": [1, 3, 8, 9, 13, 19, 23, 25, 27, 30]
+    },
+    {
+        "id": 4,
+        "title": "Testojunkie: Sex, Drugs, and Biopolitics in the Pharmacopornographic Era",
+        "author": "Paul B. Preciado",
+        "editor": "The Feminist Press",
+        "price": 19.99,
+        "tags": ["gender", "sexuality", "politics", "philosophy", "feminism"],
+        "users": [2, 4, 6, 10, 14, 16, 21]
+    },
+    {
+        "id": 5,
+        "title": "The C Programming Language",
+        "author": "Brian W. Kernighan",
+        "editor": "Prentice Hall",
+        "price": 48.99,
+        "tags": ["computer science", "programming", "c programming", "software development", "algorithms"],
+        "users": [5, 7, 11, 12, 18, 22, 24, 26, 29]
+    },
+    {
+        "id": 6,
+        "title": "The Structure of Scientific Revolutions",
+        "author": "Thomas S. Kuhn",
+        "editor": "University of Chicago Press",
+        "price": 17.99,
+        "tags": ["science", "philosophy of science", "paradigm shifts", "history of science"],
+        "users": [3, 8, 9, 13, 20, 23, 27, 28]
+    },
+    {
+        "id": 7,
+        "title": "Capital: Critique of Political Economy",
+        "author": "Karl Marx",
+        "editor": "Penguin Classics",
+        "price": 10.99,
+        "tags": ["political economy", "socialism", "economic theory", "history", "politics"],
+        "users": [1, 2, 5, 8, 11, 13, 15, 18]
+    },
+    {
+        "id": 8,
+        "title": "To the Lighthouse",
+        "author": "Virginia Woolf",
+        "editor": "Harvest Books",
+        "price": 13.99,
+        "tags": ["literature", "modernism", "stream of consciousness", "family", "time"],
+        "users": [2, 4, 7, 9, 10, 13, 16, 19]
+    }
+]
