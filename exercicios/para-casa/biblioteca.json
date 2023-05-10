@@ -1,0 +1,48 @@
+[
+    {
+        "idLivro": 1,
+        "titulo": "20th Century Boys",
+        "autor": "Naoki Urasawa",
+        "usuarios": [
+            3,
+            7,
+            8
+        ]
+    },
+    {
+        "idLivro": 2,
+        "titulo": "Houseki No Kuni",
+        "autor": "Haruko Ichikawa",
+        "usuarios": [
+            3,
+            8
+        ]
+    },
+    {
+        "idLivro": 3,
+        "titulo": "Yotsuba To!",
+        "autor": "Kiyohiko Azuma",
+        "usuarios": [
+            7,
+            8
+        ]
+    },
+    {
+        "idLivro": 4,
+        "titulo": "My Lesbian Experience with Loneliness",
+        "autor": "Kabi Nagata",
+        "usuarios": [
+            8
+        ]
+    },
+    {
+        "idLivro": 5,
+        "titulo": "Saikyou Densetsu Kurosawa",
+        "autor": "Nobuyuki Fukumoto",
+        "usuarios": [
+            3,
+            8
+        ]
+    }
+
+]
