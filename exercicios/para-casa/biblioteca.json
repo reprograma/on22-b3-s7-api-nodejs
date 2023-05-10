@@ -1,0 +1,32 @@
+[
+    {
+        "id": 3458,
+        "nome": "VHS",
+        "autor": "Cesar Bravo",
+        "usuarios": [5, 3]
+    },
+    {
+        "id": 3597,
+        "nome": "DVD",
+        "autor": "Cesar Bravo",
+        "usuarios": [2, 4]
+    },
+    {
+        "id": 7468,
+        "nome": "Priest",
+        "autor": "Sierra Simone",
+        "usuarios": [5]
+    },
+    {
+        "id": 1648,
+        "nome": "Contos Esmagadores",
+        "autor": "Junji Ito",
+        "usuarios": [4, 5]
+    },
+    {
+        "id": 1473,
+        "nome": "A hipótese do amor",
+        "autor": "Ali Hazelwood",
+        "usuarios": [3, 1]
+    }
+]
