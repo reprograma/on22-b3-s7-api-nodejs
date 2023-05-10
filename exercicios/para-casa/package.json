@@ -1,0 +1,12 @@
+{
+  "name": "para-casa",
+  "version": "1.0.0",
+  "description": "Nós vamos voltar com a nossa Biblioteca, mas agora com novas informações, pois a nossa bibliotecária precisa do telefone de alguns usuários para solicitar a devolução de livros em atraso.",
+  "main": "exercicio_casa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node exercicio_casa.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

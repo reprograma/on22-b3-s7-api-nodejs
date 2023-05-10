@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "titulo": "Trainspotting",
+        "autor": "Irvine Welsh",
+        "editora": "Minerva",
+        "preco": 25.00,
+        "usuarios":[
+            1,
+            4
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "Um corpo à deriva",
+        "autor": "Edimilson de Almeida Pereira",
+        "editora": "Macondo",
+        "preco": 50.00,
+        "usuarios":[
+            10,
+            4
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Triste Fim de Policarpo Quaresma",
+        "autor": "Lima Barreto",
+        "editora": "ML&PM",
+        "preco": 15.00,
+        "usuarios":[
+            10,
+            5
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "Almoço Nu",
+        "autor": "William Burroughs",
+        "editora": "Companhia das Letras",
+        "preco": 55.00,
+        "usuarios":[
+            9,
+            5
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Autobiography of Red",
+        "autor": "Anne Carson",
+        "editora": "Penguin Books",
+        "preco": 40.00,
+        "usuarios":[
+            5,
+            1
+        ]
+    }
+]
