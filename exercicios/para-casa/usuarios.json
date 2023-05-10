@@ -26,24 +26,7 @@
     {
         "id": 5,
         "nome": "Julia",
-        "email": "julia123@gmail.com"
-    },
-
-    {
-        "id": 6,
-        "nome": "Matheus",
-        "email": "matheus123@gmail.com",
-        "nome": "Milena Gomes Reis",
-        "email": "milenagomes@email.com"
-    },
-    {
-        "id": 2,
-        "nome": "Luke Skywalker",
-        "email": "lukeskywalker@email.com"
-    },
-    {
-        "id": 3,
-        "nome": "Han Solo",
-        "email": "hansolo@email.com"
+        "email": "julia123@gmail.com" 
     }
 ]
+    

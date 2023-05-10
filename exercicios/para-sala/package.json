@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "start": "node callback-promises.js"
+=======
+    "start": "node ./revisao/index.js"
+>>>>>>> ce1a94433e4a7a4d2ba0e771e3000c7c595d4569
   },
   "author": "",
   "license": "ISC",
