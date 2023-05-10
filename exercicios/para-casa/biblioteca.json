@@ -1,14 +1,13 @@
 [
         {  
-            "id": "225",
+            "id": 225,
             "nome": "O Codigo Limpo",
             "autor": "Marti",
-            
-"usuarios":[1,9]
+            "usuarios":[1,9]
         }
 
        ,{
-        "id": "331",
+        "id": 331,
         "nome": "O Conto de Aia",
         "autor": "Margaret Atwood",
         "usuarios":[5,1]
@@ -16,7 +15,7 @@
       }
 
       ,{
-        "id": "644",
+        "id": 641,
         "nome": "O grito",
         "autor": "Eu, eu mesmo e Irene",
        "usuarios":[5,9]
@@ -24,13 +23,13 @@
       }
 
       ,{
-        "id": "241",
+        "id": 241,
         "nome": "Anne de Green Gables",
         "autor": "Lucy M. Montgomery",
         "usuarios":[ 5,9]
       }
 ,{
-    "id": "032",
+    "id": 645,
 "nome":"O vento que ventava",
 "autor": "Oya",
 "usuarios":[1,5]

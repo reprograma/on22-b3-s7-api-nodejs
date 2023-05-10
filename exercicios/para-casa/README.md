@@ -6,11 +6,11 @@ Vamos fazer a continuação do exercício feito em sala.
 
 > A CONTINUACAO DEVE SER FEITA NA PASTA para-casa
 
- - Fazer o processo de inicialização do projeto no para-casa
+ - Fazer o processo de inicialização do projeto no para-casa ok
 
- - Copiar o arquivo do exercício do para-sala, para o para-casa
+ - Copiar o arquivo do exercício do para-sala, para o para-casa ok
 
- - Atualizar o package.json com esse novo arquivo.
+ - Atualizar o package.json com esse novo arquivo ok
 
  - Copiar o biblioteca.json para o para-casa.
 
