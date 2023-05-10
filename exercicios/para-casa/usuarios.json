@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nome": "Milena Gomes Reis",
+    "email": "milenagomes@email.com"
+  },
+  {
+    "id": 2,
+    "nome": "Luke Skywalker",
+    "email": "lukeskywalker@email.com"
+  },
+  {
+    "id": 3,
+    "nome": "Han Solo",
+    "email": "hansolo@email.com"
+  }
+]
