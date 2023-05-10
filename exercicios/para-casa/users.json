@@ -1,152 +1,152 @@
 [
     {
         "id": 1,
-        "nome": "Emma Johnson",
+        "name": "Emma Johnson",
         "email": "emma.johnson@gmail.com"
     },  
     {   
         "id": 2,
-        "nome": "Alexander Lee",
+        "name": "Alexander Lee",
         "email": "alexander_lee@yahoo.com"
     },  
     {   
         "id": 3,
-        "nome": "Sophie Martin",
+        "name": "Sophie Martin",
         "email": "sophie.martin@hotmail.com"
     },  
     {   
         "id": 4,
-        "nome": "Maximilian Schmidt",
+        "name": "Maximilian Schmidt",
         "email": "maximilian_schmidt@example.com"
     },  
     {   
         "id": 5,
-        "nome": "Isabella Wong",
+        "name": "Isabella Wong",
         "email": "isabella.wong@outlook.com"
     },  
     {   
         "id": 6,
-        "nome": "Noah Kim",
+        "name": "Noah Kim",
         "email": "noahkim@gmail.com"
     },  
     {   
         "id": 7,
-        "nome": "Olivia Rodriguez",
+        "name": "Olivia Rodriguez",
         "email": "olivia.rodriguez@live.com"
     },  
     {   
         "id": 8,
-        "nome": "Liam Nguyen",
+        "name": "Liam Nguyen",
         "email": "liam.nguyen@example.com"
     },  
     {   
         "id": 9,
-        "nome": "Ava Hernandez",
+        "name": "Ava Hernandez",
         "email": "avahernandez@yahoo.com"
     },  
     {   
         "id": 10,
-        "nome": "Lucas Gupta",
+        "name": "Lucas Gupta",
         "email": "lucas.gupta@hotmail.com"
     },  
     {   
         "id": 11,
-        "nome": "Mia Patel",
+        "name": "Mia Patel",
         "email": "mia_patel@example.com"
     },  
     {   
         "id": 12,
-        "nome": "Jackson Yamamoto",
+        "name": "Jackson Yamamoto",
         "email": "jackson.yamamoto@outlook.com"
     },  
     {   
         "id": 13,
-        "nome": "Charlotte Janssen",
+        "name": "Charlotte Janssen",
         "email": "charlottejanssen@gmail.com"
     },  
     {   
         "id": 14,
-        "nome": "Aiden Rossi",
+        "name": "Aiden Rossi",
         "email": "aiden_rossi@live.com"
     },  
     {   
         "id": 15,
-        "nome": "Amelia Müller",
+        "name": "Amelia Müller",
         "email": "amelia.muller@example.com"
     },  
     {   
         "id": 16,
-        "nome": "Mason O'Connor",
+        "name": "Mason O'Connor",
         "email": "mason.oconnor@yahoo.com"
     },  
     {   
         "id": 17,
-        "nome": "Harper Ivanova",
+        "name": "Harper Ivanova",
         "email": "harperivanova@hotmail.com"
     },  
     {   
         "id": 18,
-        "nome": "Elijah Dubois",
+        "name": "Elijah Dubois",
         "email": "elijah.dubois@outlook.com"
     },  
     {   
         "id": 19,
-        "nome": "Elizabeth Kowalczyk",
+        "name": "Elizabeth Kowalczyk",
         "email": "elizabeth.kowalczyk@gmail.com"
     },  
     {   
         "id": 20,
-        "nome": "Ethan Sato",
+        "name": "Ethan Sato",
         "email": "ethan.sato@example.com"
     },  
     {
         "id": 21,
-        "nome": "Emily Santoro",
+        "name": "Emily Santoro",
         "email": "emilysantoro@yahoo.com"
     },  
     {   
         "id": 22,
-        "nome": "Benjamin Da Silva",
+        "name": "Benjamin Da Silva",
         "email": "benjamin_dasilva@hotmail.com"
     },  
     {   
         "id": 23,
-        "nome": "Sophia Müller",
+        "name": "Sophia Müller",
         "email": "sophia.muller@gmail.com"
     },  
     {   
         "id": 24,
-        "nome": "William Rodríguez",
+        "name": "William Rodríguez",
         "email": "william_rodriguez@example.com"
     },  
     {   
         "id": 25,
-        "nome": "Olivia Kim",
+        "name": "Olivia Kim",
         "email": "olivia.kim@outlook.com"
     },  
     {   
         "id": 26,
-        "nome": "James Ivanov",
+        "name": "James Ivanov",
         "email": "james.ivanov@gmail.com"
     },  
     {   
         "id": 27,
-        "nome": "Ava Patel",
+        "name": "Ava Patel",
         "email": "avapatel@live.com"
     },  
     {   
         "id": 28,
-        "nome": "Noah Wong",
+        "name": "Noah Wong",
         "email": "noah.wong@example.com"
     },  
     {   
         "id": 29,
-        "nome": "Isabella Schmidt",
+        "name": "Isabella Schmidt",
         "email": "isabella_schmidt@yahoo.com"
     },  
     {   
         "id": 30,
-        "nome": "Lucas Janssen",
+        "name": "Lucas Janssen",
         "email": "lucas.janssen@hotmail.com"
     }
 ]

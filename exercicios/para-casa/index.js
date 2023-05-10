@@ -1,6 +1,7 @@
-const books = require("./library.json")
-const users = require("./users.json")
+const books = require("./library.json") // Os valores das propriedades dos usuários e livros
+const users = require("./users.json")   // foram gerados automaticamente com ajuda do ChatGPT
 
+// Declaração das promisses, usando o promise constructor
 const findBookByID = (id) => {
     return new Promise((resolve, reject) => {
         const foundBook = books.find((book) => book.id === id)
@@ -35,7 +36,7 @@ const showUser = (user) => {
     console.log(`Email: ${user.email}`)
 }
 
-const bookID = 125
+const bookID = Math.floor(Math.random() * 10 - 1)
 
 const bookPromise = findBookByID(bookID)
 
