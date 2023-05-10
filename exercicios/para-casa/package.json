@@ -1,11 +1,11 @@
 {
-  "name": "para-sala",
+  "name": "para-casa",
   "version": "1.0.0",
   "description": "## Biblioteca",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index2.js"
+    "start": "index2.js"
   },
   "author": "",
   "license": "ISC",
