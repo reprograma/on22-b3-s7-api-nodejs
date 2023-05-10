@@ -1,40 +1,3 @@
-/** const livros = require("./biblioteca.json")
-const usuarios = require("./usuarios.json")
-
-const BuscaLivroPorId = (idLivro) => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            const livroEncontrado = livros.find(livro => livro.idLivro === idLivro)
-            if (livroEncontrado) {
-                resolve(livroEncontrado)
-            } else {
-                reject('O livro buscado não foi encontrado.')
-            }
-
-        
-        }, )
-    })
-}
-
-
-
-console.log("Buscador de livros e usuário.")
-
-const idLivroBuscado = 5
-
-BuscaLivroPorId(idLivroBuscado)
-    .then((resultado) =>{
-        console.log(`Nome:  ${resultado.titulo}`)
-        console.log(`Autor: ${resultado.autor}`)
-        console.log(`Usuario: ${resultado.usuarios}`)
-    })
-    .catch((erro) =>{
-        console.log(erro)
-    })
-
-
-console.log(`Foi solicitada a busca do livro com id de #${idLivroBuscado}`)*/
-
 const livros = require("./biblioteca.json")
 const usuarios = require("./usuarios.json")
 
@@ -93,6 +56,47 @@ BuscaLivroPorId(idLivroBuscado)
   });
 
 console.log(`Foi solicitada a busca do livro com id de número #${idLivroBuscado}`);
+
+//Os códigos abaixo são versões antigas e que acabaram não dando certo, depois delas fui reformulando até chegar na 
+// versão que consegui dar commit.
+
+/** const livros = require("./biblioteca.json")
+const usuarios = require("./usuarios.json")
+
+const BuscaLivroPorId = (idLivro) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const livroEncontrado = livros.find(livro => livro.idLivro === idLivro)
+            if (livroEncontrado) {
+                resolve(livroEncontrado)
+            } else {
+                reject('O livro buscado não foi encontrado.')
+            }
+
+        
+        }, )
+    })
+}
+
+
+
+console.log("Buscador de livros e usuário.")
+
+const idLivroBuscado = 5
+
+BuscaLivroPorId(idLivroBuscado)
+    .then((resultado) =>{
+        console.log(`Nome:  ${resultado.titulo}`)
+        console.log(`Autor: ${resultado.autor}`)
+        console.log(`Usuario: ${resultado.usuarios}`)
+    })
+    .catch((erro) =>{
+        console.log(erro)
+    })
+
+
+console.log(`Foi solicitada a busca do livro com id de #${idLivroBuscado}`)*/
+
 
 
 
