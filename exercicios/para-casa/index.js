@@ -26,9 +26,13 @@ const findUserByID = (id) => {
     })
 }
 
+//declaração das funções de exibição, para o livro e para o usuário
 const showBook = (book) => {
-    console.log(`Title: ${book.title}`)
-    console.log(`Author: ${book.autor}`)
+    console.log(`Title: ${book.title}\n`)
+    console.log(`Author: ${book.author}`)
+    console.log(`Editor: ${book.editor}`)
+    console.log(`Price: ${book.price}`)
+    console.log(`Subject: ${book.tags.join(", ")}.`)
 }
 
 const showUser = (user) => {
@@ -36,15 +40,16 @@ const showUser = (user) => {
     console.log(`Email: ${user.email}`)
 }
 
-const bookID = Math.floor(Math.random() * 10 - 1)
-
+//inicializa a bookID com um valor entre 1 e 10.
+const bookID = Math.floor(Math.random() * 10 + 1)
+//inicializa a bookPromise com o valor aletório da bookID como argumento.
 const bookPromise = findBookByID(bookID)
+
 
 bookPromise
     .then((book) => {
         showBook(book)
-        console.log("---")
-        console.log("Users:\n")
+        console.log("\n-----------------------\n\nUsers:\n")
         return Promise.all(
             book.users.map((userID) => findUserByID(userID))
         )

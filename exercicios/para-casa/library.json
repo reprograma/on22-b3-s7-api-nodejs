@@ -61,5 +61,14 @@
         "price": 10.99,
         "tags": ["political economy", "socialism", "economic theory", "history", "politics"],
         "users": [1, 2, 5, 8, 11, 13, 15, 18]
+    },
+    {
+        "id": 8,
+        "title": "To the Lighthouse",
+        "author": "Virginia Woolf",
+        "editor": "Harvest Books",
+        "price": 13.99,
+        "tags": ["literature", "modernism", "stream of consciousness", "family", "time"],
+        "users": [2, 4, 7, 9, 10, 13, 16, 19]
     }
 ]

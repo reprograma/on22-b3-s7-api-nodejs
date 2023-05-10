@@ -17,7 +17,7 @@
     {   
         "id": 4,
         "name": "Maximilian Schmidt",
-        "email": "maximilian_schmidt@example.com"
+        "email": "maximilian_schmidt@gmail.com"
     },  
     {   
         "id": 5,
@@ -37,7 +37,7 @@
     {   
         "id": 8,
         "name": "Liam Nguyen",
-        "email": "liam.nguyen@example.com"
+        "email": "liam.nguyen@gmail.com"
     },  
     {   
         "id": 9,
@@ -52,7 +52,7 @@
     {   
         "id": 11,
         "name": "Mia Patel",
-        "email": "mia_patel@example.com"
+        "email": "mia_patel@yahoo.com"
     },  
     {   
         "id": 12,
@@ -72,7 +72,7 @@
     {   
         "id": 15,
         "name": "Amelia Müller",
-        "email": "amelia.muller@example.com"
+        "email": "amelia.muller@hotmail.com"
     },  
     {   
         "id": 16,
@@ -97,7 +97,7 @@
     {   
         "id": 20,
         "name": "Ethan Sato",
-        "email": "ethan.sato@example.com"
+        "email": "ethan.sato@gmail.com"
     },  
     {
         "id": 21,
@@ -117,7 +117,7 @@
     {   
         "id": 24,
         "name": "William Rodríguez",
-        "email": "william_rodriguez@example.com"
+        "email": "william_rodriguez@gmail.com"
     },  
     {   
         "id": 25,
@@ -137,7 +137,7 @@
     {   
         "id": 28,
         "name": "Noah Wong",
-        "email": "noah.wong@example.com"
+        "email": "noah.wong@gmail.com"
     },  
     {   
         "id": 29,
@@ -150,4 +150,3 @@
         "email": "lucas.janssen@hotmail.com"
     }
 ]
-    
