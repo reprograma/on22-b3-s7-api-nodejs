@@ -30,7 +30,7 @@ const buscaLivroPorId = (id) => {
 
 console.log("Buscador de livros")
 
-const idLivroBuscado = 1234
+const idLivroBuscado = 123
 
 // Exemplo de chamada de promises
 buscaLivroPorId(idLivroBuscado)
