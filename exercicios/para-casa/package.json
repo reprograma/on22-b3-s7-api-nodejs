@@ -1,0 +1,12 @@
+{
+  "name": "para-casa",
+  "version": "1.0.0",
+  "description": "Vamos fazer a continuação do exercício feito em sala.",
+  "main": "exercicio-casa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node exercicio-casa.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
