@@ -1,32 +1,32 @@
 [
     {
-        "id": 123,
-        "nome": "Codigo Limpo",
-        "autor": "Martin",
+        "id": 120,
+        "nome": "Luluzinha",
+        "autor": "Leticia Silva",
         "usuarios": [1, 2]
     },
     {
-        "id": 124,
-        "nome": "Longo e Claro Rio",
-        "autor": "Liz Moore",
+        "id": 121,
+        "nome": "Magico de OZ",
+        "autor": "Magia do mundo",
         "usuarios": [1, 3]
     },
     {
-        "id": 125,
-        "nome": "O Nome do vento",
-        "autor": "Patrick Rothfuss",
+        "id": 122,
+        "nome": "Anitta fez o bolo",
+        "autor": "Marta",
         "usuarios": [3, 2]
     },
     {
-        "id": 126,
-        "nome": "Duna",
-        "autor": "Frank Hebert",
+        "id": 123,
+        "nome": "Ratinho",
+        "autor": "Duda Reis",
         "usuarios": [2, 1]
     },
     {
-        "id": 127,
-        "nome": "Torto Arado",
-        "autor": "Itamar Vieira Junior",
-        "usuarios": [3]
+        "id": 124,
+        "nome": "Bibliografia Leticia",
+        "autor": "Tania Ozororio",
+        "usuarios": [6]
     }
 ]
