@@ -1,0 +1,32 @@
+[
+    {
+        "id": 123,
+        "nome": "Codigo Limpo",
+        "autor": "Martin",
+        "usuarios": [1, 2]
+    },
+    {
+        "id": 124,
+        "nome": "Harry Potter",
+        "autor": "Autora1",
+        "usuarios": [1, 3]
+    },
+    {
+        "id": 125,
+        "nome": "O Diario de Anny Frank",
+        "autor": "Autora2",
+        "usuarios": [3, 2]
+    },
+    {
+        "id": 126,
+        "nome": "Pequeno Príncipe",
+        "autor": "Autor3",
+        "usuarios": [2, 1]
+    },
+    {
+        "id": 127,
+        "nome": "A Culpa é das Estrelas",
+        "autor": "Autor4",
+        "usuarios": [3]
+    }
+]
