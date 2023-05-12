@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "nome": "Leticia S Rogerio",
+        "email": "leticiasrogeio@gmail.com"
+    },
+    {
+        "id": 2,
+        "nome": "Lucas Farias",
+        "email": "lucasfarias@email.com"
+    },
+    {
+        "id": 3,
+        "nome": "Fernanda Dantas",
+        "email": "fernandadantas@gmail.com"
+    }
+]

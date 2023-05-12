@@ -1,20 +1,32 @@
-[ {
-    "id": 123,
-    "nome": "As Ruinas",
-    "autor": "Leticia Silva",
-    "usuarios": [1, 2]
-},
-{ 
-    "id": 124,
-    "nome": "Tudo lindo denovo",
-    "autor": "Lais Germano",
-    "usuarios": [1, 3]
-},
-{
-    "id": 125,
-    "nome": "O fim do mundo",
-    "autor": "Nicolas Garden",
-    "usuarios": [1,4 ]
-}
-
+[
+    {
+        "id": 120,
+        "nome": "Luluzinha",
+        "autor": "Leticia Silva",
+        "usuarios": [1, 2]
+    },
+    {
+        "id": 121,
+        "nome": "Magico de OZ",
+        "autor": "Magia do mundo",
+        "usuarios": [1, 3]
+    },
+    {
+        "id": 122,
+        "nome": "Anitta fez o bolo",
+        "autor": "Marta",
+        "usuarios": [3, 2]
+    },
+    {
+        "id": 123,
+        "nome": "Ratinho",
+        "autor": "Duda Reis",
+        "usuarios": [2, 1]
+    },
+    {
+        "id": 124,
+        "nome": "Bibliografia Leticia",
+        "autor": "Tania Ozororio",
+        "usuarios": [6]
+    }
 ]
