@@ -1,0 +1,16 @@
+[
+    {"id": 1,
+    "nome": "Leticia Silva Rogerio",
+    "email":"leticiasrogerio@gmail.com"
+},
+{
+    "id": 2,
+    "nome": "Julia Mauricio",
+    "email": "juliamauricio@gmail.com"
+},
+{
+    "id": 3,
+    "nome": "Fernanda Dantas",
+    "email": "fernandadantas@gmail.com"
+}
+]
