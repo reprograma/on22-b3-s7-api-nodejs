@@ -1,12 +1,15 @@
 {
   "name": "para-casa",
   "version": "1.0.0",
-  "description": "## Biblioteca",
-  "main": "index.js",
+  "description": "Vamos fazer a continuação do exercício feito em sala.",
+  "main": "exercicio-casa.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node exercicio-casa.js"
+    "start":"node exercicio-casa.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^8.0.9"
+  }
 }

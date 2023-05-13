@@ -6,21 +6,21 @@ Vamos fazer a continuação do exercício feito em sala.
 
 > A CONTINUACAO DEVE SER FEITA NA PASTA para-casa
 
- - Fazer o processo de inicialização do projeto no para-casa
+ Ok- Fazer o processo de inicialização do projeto no para-casa
 
- - Copiar o arquivo do exercício do para-sala, para o para-casa
+ Ok- Copiar o arquivo do exercício do para-sala, para o para-casa
 
  - Atualizar o package.json com esse novo arquivo.
 
- - Copiar o biblioteca.json para o para-casa.
+ Ok- Copiar o biblioteca.json para o para-casa.
 
- - Copiar o usuarios.json para o para-casa.
+ Ok- Copiar o usuarios.json para o para-casa.
 
- - Adicionar uma promise simulando a busca dos usuários para o livro buscado.
+OK - Adicionar uma promise simulando a busca dos usuários para o livro buscado.
 
- - Imprimir o resultado no terminal
+ OK- Imprimir o resultado no terminal
 
- - o resultado no terminal deve ser semelhante ao exemplo abaixo
+ OK- o resultado no terminal deve ser semelhante ao exemplo abaixo
 
 ```
     Título: Arquitetura Limpa
