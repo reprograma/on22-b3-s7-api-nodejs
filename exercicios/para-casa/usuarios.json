@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "nome": "Luana Tito",
+      "email": "luanatito@gmail.com",
+      "livros": [1, 3]
+    },
+    {
+      "id": 2,
+      "nome": "Noah Lima",
+      "email": "noahlimac@gmail.com",
+      "livros": [4, 5]
+ 
+    },
+    {
+      "id": 3,
+      "nome": "Mikaela Tito",
+      "email": "mikaelatito@gmail.com",
+      "livros": [2]
+
+    }
+    
+  ]
+
+
+  
