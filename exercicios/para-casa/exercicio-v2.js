@@ -14,26 +14,13 @@ const buscaLivroPorId = (id) => {
     })
 }
 
-const buscaUsuariosDoLivroPorIds = (usuariosIds) => { // [3, 2]
+const buscaUsuariosDoLivroPorIds = (usuariosIds) => { 
 
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             const usuariosEncontrados = usuarios.filter((usuario) => {
                 return usuariosIds.includes(usuario.id)
             })
-
-            // usuariosEncontrados = [
-            //     {
-            //         "id": 2,
-            //         "nome": "Luke Skywalker",
-            //         "email": "lukeskywalker@email.com"
-            //     },
-            //     {
-            //         "id": 3,
-            //         "nome": "Han Solo",
-            //         "email": "hansolo@email.com"
-            //     }
-            // ]
 
             if (usuariosEncontrados) {
                 resolve(usuariosEncontrados)
@@ -46,9 +33,9 @@ const buscaUsuariosDoLivroPorIds = (usuariosIds) => { // [3, 2]
 
 console.log("Buscador de livros")
 
-const idLivroBuscado = 123
+const idLivroBuscado = 128
 
-// Exemplo de chamada de promises
+
 buscaLivroPorId(idLivroBuscado)
     .then((livro) => {
         console.log(`Título: ${livro.nome}`)
