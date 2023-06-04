@@ -27,6 +27,12 @@
         "id": 127,
         "nome": "Torto Arado",
         "autor": "Itamar Vieira Junior",
-        "usuarios": [3]
+        "usuarios": [3, 4]
+    },
+    {
+        "id": 128,
+        "nome": "Lira dos Vinte Anos",
+        "autor": "Alvares de Azevedo",
+        "usuarios": [1, 2, 4]
     }
 ]
