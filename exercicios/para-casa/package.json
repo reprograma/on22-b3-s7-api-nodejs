@@ -8,5 +8,6 @@
     "start": "node exercicio-casa.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": []
 }
