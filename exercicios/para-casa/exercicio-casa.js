@@ -1,70 +1,51 @@
-const livros = require("./biblioteca.json")
-const usuarios = require("./usuarios.json")
+const livros = require("./biblioteca.json"); // importa o conteúdo da biblioteca para a variável livros
+const usuarios = require("./usuarios.json");
 
 const buscaLivroPorId = (id) => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            const livroEncontrado = livros.find(livro => livro.id === id)
-            if (livroEncontrado) {
-                resolve(livroEncontrado)
-            } else {
-                reject(`Livro não foi encontrado`)
-            }
-        }, 5000)
-    })
-}
+  return new Promise((resolve, reject) => {
+    const livroEncontrado = livros.find((livro) => livro.id === id); // procura o livro no array com id como parâmetro
+    if (livroEncontrado) {
+      resolve(livroEncontrado); // se o livro for encontrado, retorna como resolve
+    } else {
+      reject(`O livro não foi encontrado.`); // se não for encontrado, retorna como reject
+    }
+  });
+};
 
-const buscaUsuariosDoLivroPorIds = (usuariosIds) => { // [3, 2]
+console.log(`Buscador de livros:`);
 
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            const usuariosEncontrados = usuarios.filter((usuario) => {
-                return usuariosIds.includes(usuario.id)
-            })
+const buscaUsuariosParaLivro = (livro) => {
+  return new Promise((resolve, reject) => {
+    const usuariosDoLivro = livro.usuarios.map((usuarioId) =>
+      usuarios.find((usuario) => usuario.id === usuarioId)
+    );
+    if (usuariosDoLivro) {
+      resolve(usuariosDoLivro);
+    } else {
+      reject(`Não há usuários associados a este livro.`);
+    }
+  });
+};
 
-            // usuariosEncontrados = [
-            //     {
-            //         "id": 2,
-            //         "nome": "Luke Skywalker",
-            //         "email": "lukeskywalker@email.com"
-            //     },
-            //     {
-            //         "id": 3,
-            //         "nome": "Han Solo",
-            //         "email": "hansolo@email.com"
-            //     }
-            // ]
+console.log(`Buscador de Livros e Usuários:`);
 
-            if (usuariosEncontrados) {
-                resolve(usuariosEncontrados)
-            } else {
-                reject("Não foi encontrado usuários para esse livro")
-            }
-        }, 2500)
-    })
-}
+const idLivroBuscado = 123;
 
-console.log("Buscador de livros")
-
-const idLivroBuscado = 123
-
-// Exemplo de chamada de promises
 buscaLivroPorId(idLivroBuscado)
-    .then((livro) => {
-        console.log(`Título: ${livro.nome}`)
-        console.log(`Autor: ${livro.autor}`)
-        console.log(`Usuários:`)
-        return buscaUsuariosDoLivroPorIds(livro.usuarios)
-    })
-    .then((usuarios) => {
-        usuarios.forEach(usuario => {
-            console.log(`Nome: ${usuario.nome}`)
-            console.log(`Email: ${usuario.email}`)
-            console.log(`---`)
-        });
-    })
-    .catch((erro) => {
-        console.log(erro)
-    })
+  .then((livroEncontrado) => {
+    console.log(`Título: ${livroEncontrado.nome}`);
+    console.log(`Autor: ${livroEncontrado.autor}`);
+    console.log(`---`);
+    console.log(`Usuários:`);
+    return buscaUsuariosParaLivro(livroEncontrado);
+  })
+  .then((usuariosDoLivro) => {
+    usuariosDoLivro.forEach((usuario) => {
+      console.log(`Nome: ${usuario.nome}. E-mail: ${usuario.email}`);
+    });
+  })
+  .catch((erro) => {
+    console.log(erro);
+  });
 
-console.log(`Solicitada a busca para o livro id #${idLivroBuscado}`)
+console.log(`Solicitada a busca para livro id #${idLivroBuscado}`);
