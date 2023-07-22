@@ -1,41 +1,33 @@
-// function meuCallback() {
-//     console.log("Executando o callback");
-// }
+const livros = require("./biblioteca.json")
+const usuarios = require("./usuarios.json")
 
-// console.log("Iniciando meu código")
-// setTimeout(meuCallback, 5000)
-// console.log("Console.log depois da chamada de setTimeout")
-
-console.log("Iniciando meu código")
-
-const ehPar = (numero) => {
-    return new Promise((resolve, reject) => {
-
-        //resolve = (result) => { console.log(`Resultado: ${result ? 'Par' : 'Ímpar'}`)}
-        //reject = (erro) => { console.log(erro) }
-
-        setTimeout(() => {
-            if (!isNaN(numero)) {
-                const result = numero % 2 == 0
-                resolve(result)
-            } else {
-                reject(`O texto informado: ${numero}, não corresponde a um valor numérico`)
-            }
-        }, 5000)
-
-
-    });
+const buscaLivroPorId = (id) => {
+    const livroEncontrado = livros.find(livro => livro.id === id)
+    
+    return livroEncontrado
 }
 
-ehPar("dois")
-    .then((result) => {
-        console.log(`Resultado: ${result ? 'Par' : 'Ímpar'}`)
-    })
-    .catch((erro) => {
-        console.log(erro)
-    }).finally(() => {
-        console.log("FIM.")
-    })
+const buscaUsuarioPorId = (id) => {
+    const usuarioEncontrado = usuarios.find(usuario => usuario.id === id)
 
-console.log("Ja chamei a função ehPar, estou esperando a resposta")
+    return usuarioEncontrado
+}
 
+const exibeLivros = (livro) => {
+    console.log(`Título: ${livro.nome}`)
+    console.log(`Autor(a): ${livro.autor}`)
+}
+
+const exibeUsuario = (usuario) => {
+    console.log(`Nome: ${usuario.nome}`)
+    console.log(`Email: ${usuario.email}`)
+}
+
+const livro = buscaLivroPorId(123)
+exibeLivros(livro)
+console.log("¬¬¬¬")
+console.log("Usuários:\n")
+livro.usuarios.forEach(usuarioId => {
+    const usuario = buscaUsuarioPorId(usuarioId)
+    exibeUsuario(usuario)
+})

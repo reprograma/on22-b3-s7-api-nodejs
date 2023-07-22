@@ -1,0 +1,17 @@
+[
+    {   "id": 123,
+        "nome": "Festa de criança",
+        "autor": "Luís Fernando Veríssimo",
+        "usuarios": [1, 2]
+    },
+    {   "id": 124,
+        "nome": "Agosto",
+        "autor": "Rubem Fonseca",
+        "usuarios": [1, 3]
+    },
+    {   "id": 125,
+        "nome": "Lenora",
+        "autor": "Heloísa Pinheiro",
+        "usuarios": [1, 4]
+    }
+]
