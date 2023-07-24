@@ -1,0 +1,32 @@
+[
+    {
+        "id": 123,
+        "nome": "Alice no País das Maravilhas",
+        "autor": "Antonio José",
+        "usuarios": [1, 2]
+    },
+    {
+        "id": 124,
+        "nome": "Marley e Eu",
+        "autor": "John Grogan",
+        "usuarios": [1, 3]
+    },
+    {
+        "id": 125,
+        "nome": "Quem tem medo do feminismo negro",
+        "autor": "Djamila Ribeiro",
+        "usuarios": [3, 2]
+    },
+    {
+        "id": 126,
+        "nome": "Orgulho e Preconceito",
+        "autor": "Jane Austen",
+        "usuarios": [2, 1]
+    },
+    {
+        "id": 127,
+        "nome": "Um Dia",
+        "autor": "David Nicholls",
+        "usuarios": [3]
+    }
+]

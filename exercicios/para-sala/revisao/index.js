@@ -1,5 +1,5 @@
-const livros = require("./biblioteca.json")
-const usuarios = require("./usuarios.json")
+const livros = require("../biblioteca.json")
+const usuarios = require("../usuarios.json")
 
 const buscaLivroPorId = (id) => {
     const livroEncontrado = livros.find(livro => livro.id === id)

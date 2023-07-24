@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "nome": "Laís Ferreira",
+        "email": "laisferreira@email.com"
+    },
+    {
+        "id": 2,
+        "nome": "Julia Roberts",
+        "email": "juliar@email.com"
+    },
+    {
+        "id": 3,
+        "nome": "Nicole Kidman",
+        "email": "nicolekidman2.com"
+    }
+]
